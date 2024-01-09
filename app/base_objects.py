@@ -10,4 +10,4 @@ class TaskResult(BaseModel):
     id: str
     status: str
     error: Optional[str] = None
-    result: Optional[Any] = Non
+    result: Optional[Any] = None
